@@ -5,8 +5,7 @@ public class pf {
 
         Scanner s = new Scanner(System.in);
         int n=s.nextInt();
-        int marks=40;
-        if(marks>=40)
+        if(n>=40)
         {
             System.out.println("pass");
         }
