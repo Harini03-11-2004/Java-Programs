@@ -26,7 +26,4 @@ class sm{
         System.out.println(s.repeat(2));
         System.out.println(s.toUpperCase());
         System.out.println(s1.toLowerCase());
-
-
-    }
-}
+ }}
