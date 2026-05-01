@@ -1,12 +1,9 @@
 import java.util.*;
 public class exp {
     public static void main(String args[])
-    {
-          expt obj=new expt();
+    {expt obj=new expt();
           obj.etrack();
-          
-}
-}
+    }}
 class expt
 {
     void etrack()
@@ -22,13 +19,11 @@ class expt
         int c=s.nextInt();
         total+=b;
       if(c==0){
-        
-            break;
-        }
-    }
+        break;
+        }}
     System.out.println("total expense : "+total);
-}
-}
+}}
+
 
 
 
