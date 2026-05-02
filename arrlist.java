@@ -1,5 +1,6 @@
- import java.util.Arrays;
+ import java.util.Collections;
  import java.util.ArrayList;
+ import java.util.Arrays;
  class arrlist {
     public static void main(String args[])
     {
@@ -17,6 +18,18 @@
         System.out.println(arr);
         arr.remove(3);//remove
         System.out.println(arr);
+        boolean a= arr.contains(7);
+        System.out.println(a);
+       //System.out.println(arr.contains(7));
+         arr.add(5);
+        arr.add(2);
+        arr.add(3);
+        arr.add(6);
+        Collections.sort(arr);//sort the element using collection
+        System.out.println(arr);
+
+    
+
 
     }
 }
