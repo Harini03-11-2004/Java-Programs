@@ -11,6 +11,9 @@ public class math {
         //square
         int b = 25;
         System.out.println(Math.sqrt(b));
+        //cube root
+        int q=64;
+        System.out.println(Math.cbrt(q));
         //ceil
         double num1=1.2;
         double num2 = 8.5;
@@ -35,7 +38,7 @@ public class math {
         //Max
         int x = 25;
         int y=30;
-        System.out.println("Minimum: "+Math.max(e,f));
+        System.out.println("Maximum: "+Math.max(e,f));
         //cos
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the angle : ");
@@ -48,7 +51,7 @@ public class math {
         System.out.println("Enter the angle : ");
         double de=i.nextDouble();
         double r=Math.toRadians(de);
-        double sinValue=Math.cos(randians);
+        double sinValue=Math.sin(randians);
         System.out.println(sinValue);
       }
 }
